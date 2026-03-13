@@ -31,16 +31,15 @@ function parseArgs(argv) {
 
 function printHelp() {
   const themeKeys = Object.keys(THEMES).join(', ');
-  console.log(`introshow - 一键生成项目介绍页
+  console.log(`project-intro-generator - 一键生成项目介绍页
 
 使用：
-  introshow --project <路径> [--git <repo-url>] [--out <输出HTML>] [--theme ${themeKeys}] [--accent #RRGGBB] [--export-image|--no-export-image --image-out <png>]
-  introshow --html <已存在的HTML路径> [--image-out <png>]
+  project-intro-generator --project <路径> [--out <输出HTML>] [--theme ${themeKeys}] [--accent #RRGGBB] [--export-image|--no-export-image --image-out <png>]
+  project-intro-generator --html <已存在的HTML路径> [--image-out <png>]
 
 示例：
-  introshow --project . --theme aurora
-  introshow --git https://github.com/owner/repo.git
-  introshow --html ./介绍.html --image-out ./介绍.png
+  project-intro-generator --project . --theme aurora
+  project-intro-generator --html ./介绍.html --image-out ./介绍.png
 `);
 }
 

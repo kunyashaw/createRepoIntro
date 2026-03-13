@@ -1,16 +1,16 @@
 ---
-name: "introshow"
-version: "0.1.4"
+name: "project-intro-generator"
+version: "0.1.0"
 displayName: "项目介绍页生成器"
-description: "遍历项目目录，生成可编辑的项目介绍页，支持主题切换和长图导出。"
+description: "一键生成项目介绍页，支持本地编辑和长图导出。"
 entryPoint:
   type: javascript
   path: "bin/cli.js"
 triggers:
-  keywords: ["生成介绍页", "项目介绍", "介绍html", "生成长图", "项目截图"]
+  keywords: ["生成介绍页", "项目介绍", "介绍html", "生成长图", "项目截图", "project intro", "readme"]
 ---
 
-# introshow
+# project-intro-generator
 
 一键生成项目介绍页，支持本地目录扫描、可编辑 HTML 和长图导出。
 
@@ -24,6 +24,22 @@ triggers:
 
 ## 使用
 
+### 聊天中使用
+
+在聊天中直接发送项目绝对路径即可自动生成：
+
+```
+生成介绍页：/Users/kunyashaw/code/java/myproject
+```
+
+生成后会自动返回：
+- HTML 文件路径
+- PNG 长图路径
+
+生成的 HTML 页面默认可编辑，点击「保存修改并导出图片」可下载编辑后的 HTML 并获取导出长图的 CLI 命令。
+
+### 命令行使用
+
 ```bash
 # 本地目录生成
 node bin/cli.js --project <path> --theme ocean
@@ -31,6 +47,13 @@ node bin/cli.js --project <path> --theme ocean
 # 从已有 HTML 导出长图
 node bin/cli.js --html <html路径> --image-out <png路径>
 ```
+
+### 参数说明
+
+- `--project`：项目绝对路径（聊天中使用时直接发送路径即可）
+- `--theme`：主题（ocean / forest / aurora / sunset / midnight / mono）
+- `--html`：已有 HTML 文件路径，直接导出长图
+- `--image-out`：长图输出路径
 
 ## 功能
 

@@ -1,4 +1,4 @@
-# introshow-skill
+# project-intro-generator
 
 一键遍历项目目录，生成项目介绍页，支持本地编辑和长图导出。
 
@@ -11,6 +11,20 @@
 </div>
 
 ## 快速开始
+
+### 聊天中使用（推荐）
+
+在聊天中直接发送项目绝对路径即可自动生成：
+
+```
+生成介绍页：/Users/kunyashaw/code/java/myproject
+```
+
+生成后会自动返回：
+- HTML 文件路径
+- PNG 长图路径
+
+### 命令行使用
 
 ```bash
 # 安装依赖（playwright 可选，用于长图导出）

@@ -11,7 +11,7 @@ function assertGitAvailable() {
   }
 }
 
-async function createTempDir(prefix = 'introshow-') {
+async function createTempDir(prefix = 'project-intro-') {
   const base = await fs.promises.mkdtemp(path.join(os.tmpdir(), prefix));
   return base;
 }

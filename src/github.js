@@ -11,7 +11,7 @@ function fetchGitHubRepoInfo(repoUrl) {
 
     const req = https.get(apiUrl, {
       headers: {
-        'User-Agent': 'introshow-skill',
+        'User-Agent': 'project-intro-generator',
         'Accept': 'application/vnd.github.v3+json'
       }
     }, (res) => {
