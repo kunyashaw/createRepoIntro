@@ -1,8 +1,4 @@
 ---
-
-> 💡 通过 ClawHub 安装此 Skill：`project-intro-generator`
-
----
 name: "project-intro-generator"
 version: "0.1.0"
 displayName: "项目介绍页生成器"
@@ -20,13 +16,9 @@ triggers:
 
 **GitHub**: [https://github.com/kunyashaw/createRepoIntro](https://github.com/kunyashaw/createRepoIntro)
 
-## 演示视频
+**演示视频**: [https://www.youtube.com/watch?v=6ZRcgbdZSXw](https://www.youtube.com/watch?v=6ZRcgbdZSXw)
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=6ZRcgbdZSXw">
-    <img src="https://img.youtube.com/vi/6ZRcgbdZSXw/maxresdefault.jpg" alt="演示视频" width="600">
-  </a>
-</div>
+> 💡 通过 ClawHub 安装此 Skill：`project-intro-generator`
 
 ## 使用
 
@@ -76,7 +68,7 @@ node bin/cli.js --html <html路径> --image-out <png路径>
 2. **依赖解析**：识别项目使用的包管理器，解析 dependencies。
 3. **生成内容**：
    - 标题区域：项目名称
-   - 项目概览：文件数、主要语言、目录结构
+   - 项目概览：文件数，主要语言、目录结构
    - 项目介绍：优先显示 README 内容，无 README 时显示编辑提示
    - 依赖区块：显示项目依赖及用途说明
 4. **页面特性**：
