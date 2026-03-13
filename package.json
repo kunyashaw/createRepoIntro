@@ -1,0 +1,35 @@
+{
+  "name": "introshow-skill",
+  "version": "0.1.1",
+  "description": "Generate a polished intro page for any project from README or code scan, with theming and long-image export.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "bin": {
+    "introshow": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "generate": "node bin/cli.js",
+    "lint": "node -c src/index.js"
+  },
+  "keywords": [
+    "skill",
+    "intro",
+    "project",
+    "readme",
+    "generator",
+    "html",
+    "screenshot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^11.2.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.58.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

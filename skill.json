@@ -1,0 +1,23 @@
+{
+  "name": "introshow",
+  "version": "0.1.4",
+  "displayName": "项目介绍页生成器",
+  "description": "遍历项目目录，生成可编辑的项目介绍页，支持主题切换和长图导出。",
+  "author": "",
+  "license": "MIT",
+  "main": "src/index.js",
+  "entryPoint": {
+    "type": "javascript",
+    "path": "bin/cli.js"
+  },
+  "triggers": {
+    "keywords": ["生成介绍页", "项目介绍", "介绍html", "生成长图", "项目截图", "project intro"]
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "generate": "node bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
