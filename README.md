@@ -2,6 +2,14 @@
 
 一键遍历项目目录，生成项目介绍页，支持本地编辑和长图导出。
 
+## 演示视频
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=6ZRcgbdZSXw">
+    <img src="https://img.youtube.com/vi/6ZRcgbdZSXw/maxresdefault.jpg" alt="演示视频" width="600">
+  </a>
+</div>
+
 ## 快速开始
 
 ```bash

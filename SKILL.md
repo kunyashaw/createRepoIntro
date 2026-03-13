@@ -14,6 +14,14 @@ triggers:
 
 一键生成项目介绍页，支持本地目录扫描、可编辑 HTML 和长图导出。
 
+## 演示视频
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=6ZRcgbdZSXw">
+    <img src="https://img.youtube.com/vi/6ZRcgbdZSXw/maxresdefault.jpg" alt="演示视频" width="600">
+  </a>
+</div>
+
 ## 使用
 
 ```bash
