@@ -14,6 +14,8 @@ triggers:
 
 一键生成项目介绍页，支持本地目录扫描、可编辑 HTML 和长图导出。
 
+**GitHub**: [https://github.com/kunyashaw/createRepoIntro](https://github.com/kunyashaw/createRepoIntro)
+
 ## 演示视频
 
 <div align="center">

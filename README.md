@@ -2,6 +2,8 @@
 
 一键遍历项目目录，生成项目介绍页，支持本地编辑和长图导出。
 
+**在 OpenCode/Claude AI 中使用此 Skill**: [https://clawhub.ai/kunyashaw/project-intro-generator](https://clawhub.ai/kunyashaw/project-intro-generator)
+
 ## 演示视频
 
 <div align="center">
