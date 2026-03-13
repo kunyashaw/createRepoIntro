@@ -1,6 +1,6 @@
 ---
 name: "project-intro-generator"
-version: "0.1.0"
+version: "0.1.2"
 displayName: "项目介绍页生成器"
 description: "一键生成项目介绍页，支持本地编辑和长图导出。"
 entryPoint:
