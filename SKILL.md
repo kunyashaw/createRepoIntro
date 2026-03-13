@@ -1,4 +1,8 @@
 ---
+
+> 💡 通过 ClawHub 安装此 Skill：`project-intro-generator`
+
+---
 name: "project-intro-generator"
 version: "0.1.0"
 displayName: "项目介绍页生成器"
